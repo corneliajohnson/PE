@@ -6,7 +6,8 @@ namespace PracticeExercices
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = "Cornelia";
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
