@@ -6,12 +6,20 @@ namespace PracticeExercices
     {
         static void Main(string[] args)
         {
-            exercise(1, 2);
+            exercise(51);
         }
 
-        static void exercise(int a, int b)
+        static void exercise(int n)
         {
-            Console.WriteLine(a + b);
+            if (n > 51)
+            {
+                Console.WriteLine((n-51) * 3);
+            }
+            else
+            {
+                Console.WriteLine(51 -n);
+            }
+
         }
     }
 }
