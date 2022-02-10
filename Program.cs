@@ -6,7 +6,7 @@ namespace PracticeExercices
     {
         static void Main(string[] args)
         {
-            exercise(51);
+            exercise(551);
         }
 
         static void exercise(int n)
